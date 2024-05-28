@@ -17,7 +17,6 @@ function App() {
             Aside
           </GridItem>
         </Show>
-
         <GridItem area={"menu"} bg={"dodgerblue"}>
           Menu
         </GridItem>
