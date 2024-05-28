@@ -27,5 +27,3 @@ function App() {
 }
 
 export default App;
-
-// `"nav nav" "aside menu"`
