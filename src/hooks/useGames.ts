@@ -11,7 +11,15 @@ export interface Game {
   id: number;
   name: string;
   background_image: string;
+  parent_platforms: { platform: Platform }[];
 }
+
+export interface Platform {
+  id: number;
+  slug: string;
+  name: string;
+}
+
 const useGames = () => {
   const [games, setGames] = useState<Game[]>([]);
   const [error, setError] = useState("");
