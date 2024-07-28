@@ -13,7 +13,7 @@ const GameGrid = ({ gameQuery }: Props) => {
   const { data, error, isLoading } = useGames(gameQuery);
   const skeletons = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
-  if (error) return <Text>{error}</Text>};
+  if (error) return <Text>{error}</Text>;
 
   return (
     <>
@@ -37,4 +37,5 @@ const GameGrid = ({ gameQuery }: Props) => {
     </>
   );
 };
+
 export default GameGrid;
